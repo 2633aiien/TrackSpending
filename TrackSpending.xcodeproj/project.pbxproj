@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F3CF84E2A17228A00E574F9 /* SettingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3CF84D2A17228A00E574F9 /* SettingData.swift */; };
+		9F43ED152A049EB1007779B9 /* CalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F43ED142A049EB1007779B9 /* CalenderView.swift */; };
+		9F43ED172A04A225007779B9 /* AnalyzeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F43ED162A04A224007779B9 /* AnalyzeView.swift */; };
+		9F43ED192A04A315007779B9 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F43ED182A04A315007779B9 /* SettingView.swift */; };
+		9F7E7EB82A14BBAA006AB3B0 /* MoneyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7E7EB72A14BBAA006AB3B0 /* MoneyData.swift */; };
+		9FE3D00F2A16169F000E8103 /* AccountData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE3D00E2A16169F000E8103 /* AccountData.swift */; };
 		9FEBC0972A047BF40085BB33 /* TrackSpendingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEBC0962A047BF40085BB33 /* TrackSpendingApp.swift */; };
 		9FEBC0992A047BF40085BB33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEBC0982A047BF40085BB33 /* ContentView.swift */; };
 		9FEBC09B2A047BF80085BB33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FEBC09A2A047BF80085BB33 /* Assets.xcassets */; };
 		9FEBC09E2A047BF80085BB33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FEBC09D2A047BF80085BB33 /* Preview Assets.xcassets */; };
+		9FEBC0A52A048A250085BB33 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEBC0A42A048A250085BB33 /* UserView.swift */; };
+		9FEBC0A72A048A890085BB33 /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEBC0A62A048A890085BB33 /* WalletView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F3CF84D2A17228A00E574F9 /* SettingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingData.swift; sourceTree = "<group>"; };
+		9F43ED142A049EB1007779B9 /* CalenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderView.swift; sourceTree = "<group>"; };
+		9F43ED162A04A224007779B9 /* AnalyzeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyzeView.swift; sourceTree = "<group>"; };
+		9F43ED182A04A315007779B9 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		9F7E7EB72A14BBAA006AB3B0 /* MoneyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyData.swift; sourceTree = "<group>"; };
+		9FE3D00E2A16169F000E8103 /* AccountData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountData.swift; sourceTree = "<group>"; };
 		9FEBC0932A047BF40085BB33 /* TrackSpending.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackSpending.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FEBC0962A047BF40085BB33 /* TrackSpendingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackSpendingApp.swift; sourceTree = "<group>"; };
 		9FEBC0982A047BF40085BB33 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9FEBC09A2A047BF80085BB33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FEBC09D2A047BF80085BB33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9FEBC0A42A048A250085BB33 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		9FEBC0A62A048A890085BB33 /* WalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +48,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9FE3D00D2A16164D000E8103 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				9FE3D00E2A16169F000E8103 /* AccountData.swift */,
+				9F3CF84D2A17228A00E574F9 /* SettingData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		9FEBC08A2A047BF40085BB33 = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +76,17 @@
 		9FEBC0952A047BF40085BB33 /* TrackSpending */ = {
 			isa = PBXGroup;
 			children = (
+				9FE3D00D2A16164D000E8103 /* Data */,
 				9FEBC0962A047BF40085BB33 /* TrackSpendingApp.swift */,
 				9FEBC0982A047BF40085BB33 /* ContentView.swift */,
+				9FEBC0A62A048A890085BB33 /* WalletView.swift */,
+				9FEBC0A42A048A250085BB33 /* UserView.swift */,
+				9F43ED142A049EB1007779B9 /* CalenderView.swift */,
+				9F43ED162A04A224007779B9 /* AnalyzeView.swift */,
+				9F43ED182A04A315007779B9 /* SettingView.swift */,
 				9FEBC09A2A047BF80085BB33 /* Assets.xcassets */,
 				9FEBC09C2A047BF80085BB33 /* Preview Content */,
+				9F7E7EB72A14BBAA006AB3B0 /* MoneyData.swift */,
 			);
 			path = TrackSpending;
 			sourceTree = "<group>";
@@ -138,7 +170,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FEBC0992A047BF40085BB33 /* ContentView.swift in Sources */,
+				9F43ED172A04A225007779B9 /* AnalyzeView.swift in Sources */,
+				9F3CF84E2A17228A00E574F9 /* SettingData.swift in Sources */,
 				9FEBC0972A047BF40085BB33 /* TrackSpendingApp.swift in Sources */,
+				9F43ED192A04A315007779B9 /* SettingView.swift in Sources */,
+				9F7E7EB82A14BBAA006AB3B0 /* MoneyData.swift in Sources */,
+				9FEBC0A52A048A250085BB33 /* UserView.swift in Sources */,
+				9F43ED152A049EB1007779B9 /* CalenderView.swift in Sources */,
+				9FE3D00F2A16169F000E8103 /* AccountData.swift in Sources */,
+				9FEBC0A72A048A890085BB33 /* WalletView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +315,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +345,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
